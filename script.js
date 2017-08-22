@@ -98,8 +98,8 @@ class Sport extends Car {
 // Write your code below:
 
 class Truck extends Factory {
-  constructor (model, color, trim, enginesize, hitch, bed, doors, navigation, backupcamera = true, audio = 'basic', warranty = '150,000 miles / 6 years') {
-    super(warranty);
+  constructor (model, color, trim, enginesize, hitch, bed, doors, navigation, backupcamera = true, audio = 'basic', warranty = '150,000 miles / 6 years', make, location, airbags, abs) {
+    super(make, location, airbags, abs, warranty);
     this.model = model;
     this.color = color;
     this.trim = trim;
